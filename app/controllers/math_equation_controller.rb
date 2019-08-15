@@ -1,0 +1,2 @@
+class MathEquationController < ApplicationController
+end

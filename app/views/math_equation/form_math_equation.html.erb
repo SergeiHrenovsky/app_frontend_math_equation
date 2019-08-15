@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Math equation</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+<div class="calc-container" style="max-width:600px;">
+  <div class="calc-header">Решение квадратных уравнений</div>
+    <div class="calc-content" style="font-size:20px;  font-family:'Times New Roman', Times, serif;">
+
+      <div style="text-align:center; padding:10px 0;">  
+        <i>ax</i><sup>2</sup>&nbsp;+&nbsp;<i>bx</i>&nbsp;+&nbsp;<i>c</i>&nbsp;=&nbsp;0 
+      </div>
+
+      <div style="display:table; margin:0 auto; font-size:16px; font-family:'Times New Roman', Times, serif;">  
+        <i>a</i>&nbsp;=&nbsp;<input type="text" id="val_a" style="width:35px; text-align:left; padding-left:3px;" onkeyup="change_equation()"> &nbsp;&nbsp;
+        <i>b</i>&nbsp;=&nbsp;<input type="text" id="val_b" style="width:35px; text-align:left; padding-left:3px;" onkeyup="change_equation()">  &nbsp;&nbsp;
+        <i>c</i>&nbsp;=&nbsp;<input type="text" id="val_c" style="width:35px; text-align:left; padding-left:3px;" onkeyup="change_equation()">  
+      </div>
+
+  <div style="text-align:center; padding:15px 0;"><span id="btn_calculate" class="calc-btn btn-calculate">Решить уравнение</span></div>
+</div><!--End calc-content-->
+
+</html>

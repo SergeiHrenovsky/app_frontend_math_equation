@@ -1,0 +1,2 @@
+module MathEquationHelper
+end
