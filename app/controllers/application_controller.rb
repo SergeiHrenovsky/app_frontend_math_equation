@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
   def homepage
-  	render plane: 'Application Homepage'
+  	render plain: 'Application Homepage'
   end
 end
