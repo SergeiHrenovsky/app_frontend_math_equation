@@ -4,7 +4,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 */
 .calc-container{
-	margin: 0 auto;
+	margin: 50px auto;
   background: #F7F7F7;
   padding: 10px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -25,9 +25,29 @@
 }
 
 .calc-content {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 20px;
 	border-top: 1px solid #8a8b8b;
 	border-bottom: 1px solid #8a8b8b;
-	padding:7px;
+	padding: 7px;
+	text-align:center;
+	padding:10px;
+}
+
+.quadratic-input {
+	width:35px;
+	text-align:left;
+	padding-left:3px;
+	margin-bottom: 15px;
+}
+
+.linear-input {
+  width: 350px;
+  height: 25px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 3px;
+  margin: 15px;
 }
 
 .calc-btn{
